@@ -73,7 +73,7 @@ parseInt('a') //NaN
 0/0 //NaN
 ```
 
-A special thing to consider is that a `NaN` value is ever equal to another `NaN` value. You must use the `isNaN()` global function to check if a value evaluates to `NaN`:
+A special thing to consider is that a `NaN` value is never equal to another `NaN` value. You must use the `isNaN()` global function to check if a value evaluates to `NaN`:
 
 ```js
 NaN === NaN //false
